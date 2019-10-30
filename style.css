@@ -1,0 +1,185 @@
+#footer {
+    background-color: black;
+    position: sticky;
+    height: 200px;
+    /*bottom: -0px;*/
+    clear: both;
+    text-align: left;
+    color: white;
+}
+
+}
+
+nav p{display: inline; margin-right: 15px;}
+nav a{margin: 10px}
+
+#JoinLog {
+    font-size: 10px; 
+    
+}
+
+#Help {
+    font-size: 10px;
+    
+}
+
+#Cart {
+    font-size: 10px;
+}
+
+#Location {
+    font-size: 10px;
+}
+
+#part1 {
+    width: 500px;
+    float:left;
+    clear: both;
+}
+#part 2 {
+    float:right;
+    width: 500px;
+}
+#col1 {
+    width: 200px;
+    float: left;
+    clear: both;
+}
+
+#col2 {
+    width: 200px;
+    float: right;
+}
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Make the image responsive */
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn1 {
+    position: absolute;
+    top: 150px;
+    left: 6%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn1:hover {
+    background-color: black;
+  }
+  h6{
+      color: black;
+      font: bold;
+      left: 50px;
+  }
+   /* Style the button and place it in the middle of the container/image */
+   #column .btn2 {
+    position: absolute;
+    top: 1195px;
+    left: 70px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #column .btn2:hover {
+    background-color: black;
+  }
+   /* Style the button and place it in the middle of the container/image */
+   #column .btn3 {
+    position: absolute;
+    top: 1195px;
+    right: 625px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #column .btn3:hover {
+    background-color: black;
+  }
+ /* Style the button and place it in the middle of the container/image */
+ .container .btn4 {
+    position: absolute;
+    top: 160px;
+    left: 70px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn4:hover {
+    background-color: black;
+  }
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.nav .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.container .modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.container .close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.container .close:hover,
+.container .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
