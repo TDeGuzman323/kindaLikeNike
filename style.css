@@ -8,7 +8,7 @@
     color: white;
 }
 
-}
+
 
 nav p{display: inline; margin-right: 15px;}
 nav a{margin: 10px}
@@ -36,10 +36,11 @@ nav a{margin: 10px}
     float:left;
     clear: both;
 }
-#part 2 {
+#part2 {
     float:right;
     width: 500px;
 }
+
 #col1 {
     width: 200px;
     float: left;
