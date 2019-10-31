@@ -191,3 +191,35 @@ nav a{margin: 10px}
   text-decoration: none;
   cursor: pointer;
 }
+
+
+#footer {
+  background-color: black;
+  position: sticky;
+  height: 200px;
+  /*bottom: -0px;*/
+  clear: both;
+  text-align: left;
+  color: white;
+}
+
+#part1 {
+  width: 500px;
+  float:left;
+  clear: both;
+}
+#part2 {
+  float:right;
+  width: 500px;
+}
+#col1 {
+  width: 200px;
+  float: left;
+  clear: both;
+}
+
+#col2 {
+  width: 200px;
+  float: right;
+
+}
