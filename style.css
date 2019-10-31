@@ -8,10 +8,17 @@
     color: white;
 }
 
-
+h5 {
+  text-align: center;
+}
 
 nav p{display: inline; margin-right: 15px;}
 nav a{margin: 10px}
+
+
+#NikePlus:hover {
+  transform: scale (1.5);
+}
 
 #JoinLog {
     font-size: 10px; 
