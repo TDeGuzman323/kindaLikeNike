@@ -12,31 +12,75 @@ h5 {
   text-align: center;
 }
 
-nav p{display: inline; margin-right: 15px;}
-nav a{margin: 10px}
 
+/* //topnav bar  styling// */
 
-#NikePlus:hover {
-  transform: scale (1.5);
+.nikePlus {
+  margin-left: -30px;  
 }
 
-#JoinLog {
-    font-size: 10px; 
-    
+.nikePlus:hover {
+  transform: scale(1.5);
 }
 
-#Help {
-    font-size: 10px;
-    
+.Jordan {
+  margin-left: -730px;
+}
+.Jordan:hover {
+  transform: scale(1.5);
 }
 
-#Cart {
-    font-size: 10px;
+.Hurley {
+  margin-left: -750px;
+}
+.Hurley:hover {
+  transform: scale(1.5);
 }
 
-#Location {
-    font-size: 10px;
+.Converse {
+  margin-left: -750px;
 }
+.Converse:hover {
+  transform: scale(1.5);
+}
+
+.joinLog {
+    font-size: 12px; 
+    display: inline; 
+}
+
+.joinLog:hover {
+  font-size: 15px;
+}
+
+.Help {
+    font-size: 12px;
+    display: inline; 
+}
+
+.Help:hover{
+  font-size: 15px;
+}
+
+.Cart {
+    font-size: 12px;
+    display: inline;
+}
+
+.Cart:hover{
+  font-size: 15px;
+}
+
+.Location {
+    font-size: 12px;
+    display: inline;
+}
+
+.Location:hover {
+  font-size: 15px;
+}
+
+/* //end top nav bar styling // */
 
 #part1 {
     width: 500px;
