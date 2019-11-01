@@ -12,6 +12,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <title>kindaNike</title>
+  
 </head>
 <body>
 
@@ -32,52 +33,27 @@
 
   </div>
   </section> 
+
+
+  <!--SECOND NAVBAR-->
   <div id="navbar">
-      
-          <a  href="index.html">NIKE</a>
-       
+    <a  href="index.html">NIKE</a>  
     <a href="page2.html">      New releases    </a>
     <a href="https://www.nike.com/men" >  Men </a>
     <a href="https://www.nike.com/women">     Women </a>
     <a href="https://www.nike.com/kids">     Kids </a>
     <a href="https://www.nike.com/nike-by-you">     Customize </a>
- 
-  <!-- <div class="topnav">
-<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.html">NIKE</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-​
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="page2.html">      New releases    <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="https://www.nike.com/men" >  Men </a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link " href="https://www.nike.com/women">     Women </a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link " href="https://www.nike.com/kids">     Kids </a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link " href="https://www.nike.com/nike-by-you">     Customize </a>
-      </li>
-    </ul>-->
-  
 ​<div class="search-container">
   <form action="/action_page.php">
 <form class="form-inline my-2 my-lg-0">
       <input type="text"  id="mySearch" onkeyup="myFunction()" placeholder="Search.." name="search">
       <button type="submit"><i class="fa fa-search"></i></button>
-      
-    </form> </div>
+    </form> 
   </div>
-</nav>
+  </div>
 
+
+<!--THIRD CONTAINER WITH MODAL-->
 <div class ="containerr">
     <h5>Free Shipping & 30-Day Free Returns</h5>
 
@@ -86,9 +62,8 @@
     <button id="myBtn">Join now</button>
 
  <!-- The Modal -->
-
+ 
 <div id="myModal" class="modal">
-​
         <!-- Modal content -->
         <div class="modal-content">
           <span class="close">&times;</span>
@@ -127,33 +102,33 @@
     </label>
   </div>
   <button type="submit" class="btn btn-primary">Create account</button>
-</form>
-      
-        </div>
-      
+</form>   
+ </div>     
   </div>
   </div>
   </div>
-​</div>
-  
+
+
+<!--WHERE 2ND PAGE REALLY STARTS-->
   <h2>New releases</h2>
 <br>
-    
+<div class="containerfirst">
     <!-- The sidebar -->
- <div class="sidebar">
+ <div id="sidebar">
   <a class="active" href="#home">Buy</a>
   <a class="nav-link" href="https://www.nike.com/w/new-womens-3n82yz5e1x6">Women(678)</a>
   <a class="nav-link" href="https://www.nike.com/w/new-mens-3n82yznik1">Men(877)</a>
   <a class="nav-link" href="https://www.nike.com/w/new-boys-1onraz3n82y">Boys(567)</a>
   <a class="nav-link" href="https://www.nike.com/w/new-girls-3aqegz3n82y">Girls(786)</a>
-  <a href="#news">Color</a>
+  <br><a href="#news">Color</a>
+  <br>
   <a href="#contact">Sports</a>
+  <br>
   <a href="#about">Brand</a>
 </div>
 
 <!-- Page content -->
-<div class="content">
-
+<div id="header">
     <!--First add to cart-->
     <div class="card">
       <img src="Images/Screen Shot 2019-10-30 at 5.17.35 PM.png" alt="Sneakers1" style="width:100%">
@@ -162,16 +137,18 @@
       <p>New</p>
       <p><button>Add to Cart</button></p>
     </div>
+</div>
     <!--Second add to cart-->
-    <div class="card">
+   <div id="content1"> <div class="card">
             <img src="Images/Screen Shot 2019-10-30 at 5.17.47 PM.png" alt="Sneakers2" style="width:100%">
             <h2>Nike 440 LoStone</h2>
             <p class="price">$150</p>
             <p>Comfy</p>
             <p><button>Add to Cart</button></p>
           </div>
+        </div> 
     <!--third add to card-->
-    <div class="card">
+    <div id="content2"> <div class="card">
             <img src="Images/Screen Shot 2019-10-30 at 5.17.56 PM.png" alt="Sneakers3" style="width:100%">
             <h2>Nike 200 LostOne</h2>
             <p class="price">$110</p>
@@ -181,7 +158,8 @@
     </div>
 
     <!--second row of add to card things-->
-    <div class = "container1">
+    <!--<div class = "container1">-->
+        <div id="content3">
             <div class="card">
                     <img src="Images/Screen Shot 2019-10-30 at 7.12.22 PM.png" alt="Sneakers4" style="width:100%">
                     <h2>Nike 480 REal Nike</h2>
@@ -189,6 +167,8 @@
                     <p>Comfy</p>
                     <p><button>Add to Cart</button></p>
                   </div>
+        </div>
+        <div id="content4">
                   <div class="card">
                         <img src="Images/Screen Shot 2019-10-30 at 7.12.30 PM.png" alt="Sneakers5" style="width:100%">
                         <h2>Nike 5440 for real</h2>
@@ -196,6 +176,8 @@
                         <p>Comfy</p>
                         <p><button>Add to Cart</button></p>
                       </div>
+                    </div>
+                    <div id="content5">
                       <div class="card">
                             <img src="Images/Screen Shot 2019-10-30 at 7.12.42 PM.png" alt="Sneakers6" style="width:100%">
                             <h2>for real</h2>
@@ -204,7 +186,7 @@
                             <p><button>Add to Cart</button></p>
                           </div>
     </div>
-
+</div>
 <!--carousel thing-->
 <h3>Shop The Collection </h3>
 <div id="demo" class="carousel slide" data-ride="carousel">
@@ -236,6 +218,55 @@
         <a class="carousel-control-next" href="#demo" data-slide="next">
           <span class="carousel-control-next-icon"></span>
         </a>
+      </div>
+
+      <!--EXPAND THINGS-->
+      <div class="table" onclick="openTab('b1');" style="background:gray;">
+          <div class="row">
+          <div class="column">
+          Icons
+          </div>   
+          <div class="column"> 
+          Shoes
+      </div>   
+      <div class="column"> 
+          Clothing
+      </div>   
+      <div class="column"> 
+          Kids'
+          </div>
+          <br><br>
+      <div class="bigRow">
+       <center>Click to expand.</center>
+      </div>    
+      </div>
+      </div>    
+      ​
+      <div id="b1" class="containerTab" style="display:none;background:gray">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+      <h6>
+      <div class="row">
+          <div class="column">
+          Air Force 1<br>Huarache<br>VaporMax<br> Jordan 1<br> 
+          </div>
+          <div class="column">
+          All Shoes<br>Custom Shoes<br>Running Shoes<br>Basketball Shoes<br>
+          </div>
+          <div class="column">
+          All Clothing<br>Windbreakers<br>Tracksuits<br>Sports Bras<br>
+          </div>
+          <div class="column">
+          Infant & Toddler Shoes<br>Kids' Shoes<br>Kids' Basketball Shoes<br>Kids' Running Shoes<br> 
+          </div>
+      </div>  
+      </h6>
+      </div>
+      </div>
+       
+      <div id="gen-nav-footer">
+        <footer>
+      ​
+        </footer>
       </div>
       
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -304,7 +335,55 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+//expandable box//
+function openTab(tabName) {
+    x = document.getElementsByClassName("containerTab");
+    document.getElementById(tabName).style.display = "block";
+  }
 
             </script>
 </body>
+<footer id="footer">
+    <div id="part1">
+    <div id="col1">
+      <b> GIFT CARDS
+       <br>
+       STUDENT DISCOUNT
+       <br>
+       FIND A STORE
+       <br>
+       SIGN UP FOR EMAIL
+       <br>
+       SITE FEEDBACK
+       <br>
+       </b>
+   </div>
+   <div id="col2">
+      <b>GET HELP</b> 
+       <br>
+       Order Status
+       <br>
+        Shipping and Delivery
+        <br>
+        Returns
+        <br>
+        Payment Options
+        <br>
+        Contact Us
+               </div>
+          </div>
+          <div id="part2">   
+               <b>ABOUT NIKE</b>
+               <br>
+               News
+               <br>
+               Careers
+               <br>            
+               Investors
+               <br>
+               Purpose
+               <br>
+               CA Supply Chains Act
+          </div>
+       </footer>
 </html>
