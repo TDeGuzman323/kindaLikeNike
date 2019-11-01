@@ -167,8 +167,8 @@ font-size: 15px;
    /* Style the button and place it in the middle of the container/image */
    #column .btn2 {
     position: absolute;
-    top: 1195px;
-    left: 70px;
+    top: 1525px;
+    left: 90px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: white;
@@ -186,8 +186,8 @@ font-size: 15px;
    /* Style the button and place it in the middle of the container/image */
    #column .btn3 {
     position: absolute;
-    top: 1195px;
-    right: 625px;
+    top: 1525px;
+    right: 855px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -200,10 +200,11 @@ font-size: 15px;
   }
   
   #column .btn3:hover {
-    background-color: black;
+    background-color: white;
   }
+
  /* Style the button and place it in the middle of the container/image */
- .container .btn4 {
+ #column .btn4 {
     position: absolute;
     top: 160px;
     left: 70px;
