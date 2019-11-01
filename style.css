@@ -1,4 +1,90 @@
 #footer {
+  background-color: black;
+  position: sticky;
+  height: 200px;
+  /*bottom: -0px;*/
+  clear: both;
+  text-align: left;
+  color: white;
+}
+
+
+}
+h5 {
+text-align: center;
+}
+
+
+/* //topnav bar styling// */
+
+.nikePlus {
+margin-left: -30px;  
+}
+
+.nikePlus:hover {
+transform: scale(1.5);
+}
+
+.Jordan {
+margin-left: -730px;
+}
+.Jordan:hover {
+transform: scale(1.5);
+}
+
+.Hurley {
+margin-left: -750px;
+}
+.Hurley:hover {
+transform: scale(1.5);
+}
+
+.Converse {
+margin-left: -750px;
+}
+.Converse:hover {
+transform: scale(1.5);
+}
+
+.joinLog {
+  font-size: 12px; 
+  display: inline; 
+}
+
+.joinLog:hover {
+font-size: 15px;
+}
+
+.Help {
+  font-size: 12px;
+  display: inline; 
+}
+
+.Help:hover{
+font-size: 15px;
+}
+
+.Cart {
+  font-size: 12px;
+  display: inline;
+}
+
+.Cart:hover{
+font-size: 15px;
+}
+
+.Location {
+  font-size: 12px;
+  display: inline;
+}
+
+.Location:hover {
+font-size: 15px;
+}
+
+/* //end top nav bar styling // */
+
+#footer {
     background-color: black;
     position: sticky;
     height: 200px;
@@ -8,46 +94,15 @@
     color: white;
 }
 
-h5 {
-  text-align: center;
-}
-
-nav p{display: inline; margin-right: 15px;}
-nav a{margin: 10px}
-
-
-#NikePlus:hover {
-  transform: scale (1.5);
-}
-
-#JoinLog {
-    font-size: 10px; 
-    
-}
-
-#Help {
-    font-size: 10px;
-    
-}
-
-#Cart {
-    font-size: 10px;
-}
-
-#Location {
-    font-size: 10px;
-}
-
 #part1 {
     width: 500px;
     float:left;
     clear: both;
 }
-#part2 {
+#part 2 {
     float:right;
     width: 500px;
 }
-
 #col1 {
     width: 200px;
     float: left;
@@ -61,7 +116,13 @@ nav a{margin: 10px}
 /* Container needed to position the button. Adjust the width as needed */
 .container {
     position: relative;
+    text-align: center;
     width: 50%;
+  }
+  
+  .column{
+     /* align-content: right;*/
+      display: inline-block;
   }
   
   /* Make the image responsive */
@@ -151,8 +212,26 @@ nav a{margin: 10px}
   .container .btn4:hover {
     background-color: black;
   }
-  body {font-family: Arial, Helvetica, sans-serif;}
-
+ /* body {font-family: Arial, Helvetica, sans-serif;}
+/*btn design*/
+.container23 #myBtn {
+    position: absolute;
+    top: 160px;
+    left: 70px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container23 #myBtn:hover {
+    background-color: black;
+  }
 /* The Modal (background) */
 .nav .modal {
   display: none; /* Hidden by default */
@@ -164,8 +243,8 @@ nav a{margin: 10px}
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+ /*  background-color: rgb(0,0,0); Fallback color */
+  /* background-color: rgba(0,0,0,0.4); Black w/ opacity */
 }
 
 /* Modal Content */
@@ -191,73 +270,20 @@ nav a{margin: 10px}
   text-decoration: none;
   cursor: pointer;
 }
-
-
-#footer {
-  background-color: black;
-  position: sticky;
-  height: 200px;
-  /*bottom: -0px;*/
-  clear: both;
-  text-align: left;
-  color: white;
+#container {
+    width: 1200px;
+    height: 400px;
+    display: table;
+    background-color: #ccc;         
 }
 
-#part1 {
-  width: 500px;
-  float:left;
-  clear: both;
-}
-#part2 {
-  float:right;
-  width: 500px;
-}
-#col1 {
-  width: 200px;
-  float: left;
-  clear: both;
+#container .image-container {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
 }
 
-#col2 {
-  width: 200px;
-  float: right;
-
-}.table {
-  width: 100%;
-  padding: 30px;
-  text-align: center;
-  font-size: 25px;
-  cursor: pointer;
-  color: white;
-}
-
-.containerTab {
-  padding: 20px;
-  color: white;
-}
-.table1:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.closebtn {
-  float: right;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
-}
-.column {
-  float: left;
-  width: 25%;
-}
-.bigRow {
-  padding: 1px;
-  width: 100%;
-  font-size: 12px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+#container .image-container img {
+    max-width: 1200px;
+    max-height: 600px;        
 }
