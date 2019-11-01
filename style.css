@@ -1,11 +1,12 @@
-#footer {
-  background-color: black;
-  position: sticky;
-  height: 200px;
-  /*bottom: -0px;*/
-  clear: both;
-  text-align: left;
-  color: white;
+footer {
+    background-color: black;
+    position: sticky;
+    height: 200px;
+    /*bottom: -0px;
+    clear: both;*/
+    text-align: left;
+    color: white;
+    width: 100%;
 }
 
 
@@ -94,6 +95,12 @@ font-size: 15px;
     color: white;
 }
 
+.Location:hover {
+  font-size: 15px;
+}
+
+/* //end top nav bar styling // */
+
 #part1 {
     width: 500px;
     float:left;
@@ -113,6 +120,7 @@ font-size: 15px;
     width: 200px;
     float: right;
 }
+
 /* Container needed to position the button. Adjust the width as needed */
 .container {
     position: relative;
@@ -150,6 +158,7 @@ font-size: 15px;
   .container .btn1:hover {
     background-color: black;
   }
+  
   h6{
       color: black;
       font: bold;
@@ -286,4 +295,8 @@ font-size: 15px;
 #container .image-container img {
     max-width: 1200px;
     max-height: 600px;        
+}
+.shoes{
+  width: 90%;
+  align-content: center;
 }
