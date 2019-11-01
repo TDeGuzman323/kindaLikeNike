@@ -205,10 +205,10 @@ font-size: 15px;
   }
 
  /* Style the button and place it in the middle of the container/image */
- #column .btn4 {
+ #container .btn4 {
     position: absolute;
-    top: 160px;
-    left: 70px;
+    top: 1845px;
+    left: 60px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -220,8 +220,8 @@ font-size: 15px;
     border-radius: 5px;
   }
   
-  .container .btn4:hover {
-    background-color: black;
+  #container .btn4:hover {
+    background-color: white;
   }
  /* body {font-family: Arial, Helvetica, sans-serif;}
 /*btn design*/
