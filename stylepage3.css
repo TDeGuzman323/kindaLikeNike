@@ -37,10 +37,101 @@ h4 {
     margin-left: 54px;
 }
 
-.footer {
-background:#929292;
-color: white;
-height: 100px;
-text-align: center;
+
+.nikePlus {
+    margin-left: 0px;  
+    }
+    
+    .nikePlus:hover {
+    transform: scale(1.5);
+    }
+    
+    .Jordan {
+    margin-left: -800px;
+    }
+    
+    .Jordan:hover {
+    transform: scale(1.5);
+    }
+    
+    .Hurley {
+    margin-left: -750px;
+    }
+    .Hurley:hover {
+    transform: scale(1.5);
+    }
+    
+    .Converse {
+    margin-left: -750px;
+    }
+    .Converse:hover {
+    transform: scale(1.5);
+    }
+    
+    .joinLog {
+      font-size: 12px; 
+      display: inline; 
+    }
+    
+    .joinLog:hover {
+    font-size: 15px;
+    }
+    
+    .Help {
+      font-size: 12px;
+      display: inline; 
+    }
+    
+    .Help:hover{
+    font-size: 15px;
+    }
+    
+    .Cart {
+      font-size: 12px;
+      display: inline;
+    }
+    
+    .Cart:hover{
+    font-size: 15px;
+    }
+    
+    .Location {
+      font-size: 12px;
+      display: inline;
+    }
+    
+    .Location:hover {
+    font-size: 15px;
+    }
+
+
+#footer {
+    background-color: black;
+    position: sticky;
+    height: 200px;
+    /*bottom: -0px;*/
+    clear: both;
+    text-align: left;
+    color: white;
 }
 
+#part1 {
+    width: 500px;
+    float:left;
+    clear: both;
+}
+#part2 {
+    float:right;
+    width: 500px;
+}
+
+#col1 {
+    width: 200px;
+    float: left;
+    clear: both;
+}
+
+#col2 {
+    width: 200px;
+    float: right;
+}
