@@ -186,7 +186,7 @@ font-size: 15px;
   }
    /* Style the button and place it in the middle of the container/image */
    #column .btn3 {
-    position: absolute;
+    position: fixed;
     top: 1525px;
     right: 870px;
     transform: translate(-50%, -50%);
