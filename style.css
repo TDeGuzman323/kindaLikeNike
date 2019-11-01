@@ -1,3 +1,5 @@
+
+
 footer {
     background-color: black;
     position: sticky;
@@ -140,8 +142,8 @@ font-size: 15px;
   /* Style the button and place it in the middle of the container/image */
   .container .btn1 {
     position: absolute;
-    top: 150px;
-    left: 6%;
+    top: 230px;
+    left: -2%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #555;
@@ -297,4 +299,47 @@ font-size: 15px;
 .shoes{
   width: 90%;
   align-content: center;
+}
+
+
+/* expandable box */
+
+.table {
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+.table1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+.bigRow {
+  padding: 1px;
+  width: 100%;
+  font-size: 12px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
