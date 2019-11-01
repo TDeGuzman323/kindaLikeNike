@@ -105,33 +105,68 @@ h4 {
     }
 
 
-#footer {
-    background-color: black;
-    position: sticky;
-    height: 200px;
-    /*bottom: -0px;*/
-    clear: both;
-    text-align: left;
-    color: white;
-}
-
-#part1 {
-    width: 500px;
-    float:left;
-    clear: both;
-}
-#part2 {
-    float:right;
-    width: 500px;
-}
-
-#col1 {
-    width: 200px;
-    float: left;
-    clear: both;
-}
-
-#col2 {
-    width: 200px;
-    float: right;
-}
+    #footer {
+        background-color: black;
+        position: sticky;
+        height: 200px;
+        /*bottom: -0px;*/
+        clear: both;
+        text-align: left;
+        color: white;
+        width:100%;
+      }
+      
+      #part1 {
+        width: 500px;
+        float:left;
+        clear: both;
+      }
+      #part2 {
+        float:right;
+        width: 500px;
+      }
+      #col1 {
+        width: 200px;
+        float: left;
+        clear: both;
+      }
+      #col2 {
+        width: 200px;
+        float: right;
+      }.table {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        font-size: 25px;
+        cursor: pointer;
+        color: white;
+      }
+      .containerTab {
+        padding: 20px;
+        color: white;
+      }
+      .table1:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .closebtn {
+        float: right;
+        color: white;
+        font-size: 35px;
+        cursor: pointer;
+      }
+      .column {
+        float: left;
+        width: 25%;
+      }
+      .bigRow {
+        padding: 1px;
+        width: 100%;
+        font-size: 12px;
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
