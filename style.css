@@ -103,6 +103,7 @@ h5 {
     width: 200px;
     float: right;
 }
+
 /* Container needed to position the button. Adjust the width as needed */
 .container {
     position: relative;
@@ -134,6 +135,7 @@ h5 {
   .container .btn1:hover {
     background-color: black;
   }
+  
   h6{
       color: black;
       font: bold;
