@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height:100%;
+}
+
+#container {
+    min-height: 100%;
+}
+h5 {
+    text-align:center;
+}
+
+.myBtn {
+    text-align:center;
+} 
+
+ul {
+    text-align:center;
+}
+
+#main {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: 30px;
+}
+
+h3 {
+    margin-left: 54px;
+}
+
+h4 {
+    margin-left: 54px;
+}
+
+.footer {
+background:#929292;
+color: white;
+height: 100px;
+text-align: center;
+}
+
